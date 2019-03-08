@@ -51,7 +51,7 @@ $_SESSION['txtTotal'] = $totalValue;
                        
                        <tr>
                            <td>Pin</td>
-                           <td><input type="text" id="txtPassword" name="txtPassword" pattern="{0-9}" value="" required  onkeypress="return isNumber(event)"</td>
+                           <td><input type="text" id="txtPassword" name="txtPassword" pattern="{0-9}{4}" value="" required  onkeypress="return isNumber(event)"</td>
                        </tr>
                        
                        <tr>
